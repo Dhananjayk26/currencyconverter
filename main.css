@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(225, 165, 86);
+}
+.container{
+    background-color: rgb(225, 229, 223);
+    border-radius: 10px;
+    padding: 3%;
+    min-height: 30vh;
+    min-width: 20%;
+}
+form{
+    margin: 1rem 0 1rem 0;
+}
+form input,select,button{
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    border: 0;
+}
+form input{
+    border: 1.5px solid rgb(103, 105, 102);
+    height: 2rem;
+   
+}
+h1{
+    text-align: center;
+}
+.amount p{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.convertimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.selectcontainer img{
+    max-width: 2rem;
+}
+.from{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.to{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.selectcontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:  1.5px solid rgb(103, 105, 102);
+   border-radius: 1rem;
+   padding: 0.3rem;
+}
+.selectcontainer select {
+   background-color: transparent;
+   font-size: 1rem;
+}
+.message{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0 0.5rem 0;
+}
+button{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(149, 72, 216);
+    text-align: center;
+    height: auto;
+    padding: 0.3rem;
+margin-top: 0.5rem;    
+}
+
+
